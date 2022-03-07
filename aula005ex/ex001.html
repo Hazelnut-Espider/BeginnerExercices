@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador de Passos</title>
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>Inicio:</p> 
+            <input type="number" value="" name="qnt" id="qnt" min="0">
+            <p>Fim:</p>
+            <input type="number" name="fim" id="fim" min="0">
+            <p>Passos:</p>
+            <input type="number" name="passos" id="passos" min="0">
+            <p><input type="button" value="Contar" onclick="contar()"></p>
+        </div>
+        <div id="res">
+            preparando a contagem...
+        </div>
+    </section>
+    <footer>&copy; <em>ElderCosta</em> <strong>{Front-End - Web Developer}</strong></footer>
+    <script src="script.js"></script>
+</body>
+</html>
